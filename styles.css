@@ -4,6 +4,10 @@
 .cardrow .card {
   margin: 0.05em
 }
+.thumbnail {
+  min-width: 20vw;
+  padding: 0.5em;
+}
 .card-overlay {
   position: fixed;
   z-index: 99;
@@ -15,6 +19,8 @@
 }
 .card-overlay:target {
   visibility: visible;
+}
+.card:target {
   margin: 0;
   border: 0px;
   border-radius: 0px;
@@ -26,12 +32,6 @@
   align-items: center;
   border-radius: 8px;
   border: 2px solid white;
-  font-size: 6rem;
-  padding: 0.1em;
-}
-.icon {
-  font-size: 0.61em;
-  margin-bottom: 1em;
 }
 .green {
   background-color: #81C784;
@@ -42,4 +42,10 @@
 a, a:hover, a:visited {
   text-decoration: none;
   color: black;
+}
+.fs-4 {
+  font-size: 4vw;
+}
+.fs-xxl {
+  font-size: 25vw;
 }
