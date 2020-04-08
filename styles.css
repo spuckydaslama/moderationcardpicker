@@ -45,6 +45,9 @@
 .yellow {
   background-color: #FFE082;
 }
+.neutral {
+  background-color: #DDDDDD;
+}
 a, a:hover, a:visited {
   text-decoration: none;
   color: black;
@@ -56,7 +59,7 @@ a, a:hover, a:visited {
   font-size: 3vw;
 }
 .fs-xxxl {
-  font-size: 30vw;
+  font-size: 40vw;
 }
 .fs-xxl {
   font-size: 25vw;
