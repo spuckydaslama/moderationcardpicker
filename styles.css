@@ -29,10 +29,12 @@
 .card {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   align-items: center;
   border-radius: 8px;
   border: 2px solid white;
+}
+.card > * {
+  padding: 0.2em;
 }
 .green {
   background-color: #81C784;
