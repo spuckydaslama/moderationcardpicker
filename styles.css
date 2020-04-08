@@ -42,6 +42,9 @@
 .red {
   background-color: #E57373;
 }
+.yellow {
+  background-color: #FFE082;
+}
 a, a:hover, a:visited {
   text-decoration: none;
   color: black;
@@ -49,6 +52,15 @@ a, a:hover, a:visited {
 .fs-4 {
   font-size: 4vw;
 }
+.fs-3 {
+  font-size: 3vw;
+}
 .fs-xxl {
   font-size: 25vw;
+}
+.fs-xl {
+  font-size: 20vw;
+}
+.fs-s {
+  font-size: 10vw;
 }
