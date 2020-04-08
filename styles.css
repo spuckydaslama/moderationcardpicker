@@ -49,11 +49,14 @@ a, a:hover, a:visited {
   text-decoration: none;
   color: black;
 }
-.fs-4 {
+.fs-xs {
   font-size: 4vw;
 }
 .fs-3 {
   font-size: 3vw;
+}
+.fs-xxxl {
+  font-size: 30vw;
 }
 .fs-xxl {
   font-size: 25vw;
